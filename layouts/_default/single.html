@@ -9,8 +9,9 @@
           <section class="content">
               <h1>{{ if .Params.heading }} {{ .Params.heading }} {{ else }} {{ .Title }} {{ end }}</h1>
 
+            <!-- DATE OF PUBLICATION AND READ TIME -->
               <div class="sub-header">
-                  {{ .Date.Format (.Site.Params.dateform | default "January 2, 2006") }} · {{ .ReadingTime }} minute read
+                  <!-- {{ .Date.Format (.Site.Params.dateform | default "January 2, 2006") }} · {{ .ReadingTime }} minute read -->
               </div>
 
               <article class="entry-content">
